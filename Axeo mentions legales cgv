@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentions légales & CGV — AXEO Services Toulouse Ouest</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --orange:  #F29400;
+      --gray:    #3D3D3D;
+      --gray-md: #6B6B6B;
+      --gray-lt: #F7F7F7;
+      --border:  rgba(61,61,61,.10);
+      --ff-head: 'Nunito', sans-serif;
+      --ff-body: 'Nunito Sans', sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--ff-body); color: var(--gray); background: #fff; line-height: 1.75; }
+    a { color: var(--orange); }
+
+    .hd { background: var(--gray); border-bottom: 3px solid var(--orange); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+    .hd-logo { font-family: var(--ff-head); font-weight: 800; color: #fff; font-size: 1rem; }
+    .hd-logo span { color: var(--orange); }
+    .hd-back { font-family: var(--ff-head); font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.5); text-decoration: none; }
+    .hd-back:hover { color: var(--orange); }
+
+    .hero { background: var(--gray-lt); border-bottom: 1px solid var(--border); padding: 36px 24px; }
+    .hero h1 { font-family: var(--ff-head); font-weight: 800; font-size: 1.6rem; color: var(--gray); margin-bottom: 6px; }
+    .hero h1 span { color: var(--orange); }
+    .hero p { font-size: .85rem; color: var(--gray-md); }
+    .hero .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .chip { background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 3px 12px; font-family: var(--ff-head); font-size: .72rem; font-weight: 700; color: var(--gray-md); }
+    .chip.o { background: rgba(242,148,0,.1); color: var(--orange); border-color: rgba(242,148,0,.2); }
+
+    .nav { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; }
+    .nav-inner { max-width: 760px; margin: 0 auto; padding: 0 24px; display: flex; overflow-x: auto; }
+    .nav a { font-family: var(--ff-head); font-size: .8rem; font-weight: 700; color: var(--gray-md); text-decoration: none; padding: 12px 16px; white-space: nowrap; border-bottom: 3px solid transparent; display: block; transition: all .2s; }
+    .nav a:hover { color: var(--orange); border-bottom-color: var(--orange); }
+
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    .sec { margin-bottom: 52px; scroll-margin-top: 50px; }
+    .sec-title { font-family: var(--ff-head); font-weight: 800; font-size: 1.05rem; color: var(--gray); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid rgba(242,148,0,.2); display: flex; align-items: center; gap: 8px; }
+    .sec-title::before { content: ''; width: 4px; height: 18px; background: var(--orange); border-radius: 2px; display: block; }
+
+    .tbl { width: 100%; border-collapse: collapse; font-size: .9rem; margin-bottom: 16px; }
+    .tbl tr { border-bottom: 1px solid var(--border); }
+    .tbl tr:last-child { border-bottom: none; }
+    .tbl td { padding: 10px 12px; vertical-align: top; }
+    .tbl td:first-child { font-family: var(--ff-head); font-weight: 700; color: var(--gray); width: 40%; background: var(--gray-lt); font-size: .85rem; }
+    .tbl td:last-child { color: var(--gray-md); }
+
+    p { font-size: .92rem; color: var(--gray-md); margin-bottom: 10px; }
+    p strong { color: var(--gray); }
+
+    .note { background: rgba(242,148,0,.08); border-left: 3px solid var(--orange); border-radius: 0 8px 8px 0; padding: 12px 16px; font-size: .85rem; color: var(--gray); margin: 14px 0; }
+    .note strong { color: var(--orange); }
+
+    hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+
+    .ft { background: var(--gray); padding: 20px 24px; border-top: 3px solid var(--orange); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .ft span { font-size: .78rem; color: rgba(255,255,255,.35); font-family: var(--ff-head); }
+    .ft a { color: var(--orange); text-decoration: none; font-size: .78rem; font-family: var(--ff-head); font-weight: 700; }
+  </style>
+</head>
+<body>
+
+  <header class="hd">
+    <div class="hd-logo">AXEO Services <span>Toulouse Ouest</span></div>
+    <a href="/livraison-repas/" class="hd-back">← Retour au site</a>
+  </header>
+
+  <div class="hero">
+    <h1>Mentions légales <span>&amp; CGV</span></h1>
+    <p>MARHEL SERVICES — AXEO Services Toulouse Ouest · Tournefeuille</p>
+    <div class="chips">
+      <span class="chip o">SIRET 534 855 762 00033</span>
+      <span class="chip">APE 88.10A</span>
+      <span class="chip">Agréé SAP</span>
+      <span class="chip">Mis à jour le 24/03/2026</span>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#mentions">Mentions légales</a>
+      <a href="#cgv">CGV</a>
+      <a href="#rgpd">Données &amp; Cookies</a>
+    </div>
+  </nav>
+
+  <div class="wrap">
+
+    <!-- ══ MENTIONS LÉGALES ══════════════════════════════════ -->
+    <div class="sec" id="mentions">
+      <div class="sec-title">Mentions légales</div>
+
+      <table class="tbl">
+        <tr><td>Raison sociale</td><td><strong>MARHEL SERVICES</strong></td></tr>
+        <tr><td>Enseigne</td><td>AXEO SERVICES Toulouse Ouest</td></tr>
+        <tr><td>Forme juridique</td><td>SARL</td></tr>
+        <tr><td>SIREN</td><td>534 855 762</td></tr>
+        <tr><td>SIRET</td><td>534 855 762 00033</td></tr>
+        <tr><td>APE</td><td>88.10A — Aide à domicile</td></tr>
+        <tr><td>Adresse</td><td>14 Rue des Platanes, 31170 Tournefeuille</td></tr>
+        <tr><td>Téléphone</td><td><a href="tel:+33531220021">05 31 22 00 21</a></td></tr>
+        <tr><td>Email</td><td><a href="mailto:toulouse-ouest@axeoservices.fr">toulouse-ouest@axeoservices.fr</a></td></tr>
+        <tr><td>Site</td><td><a href="https://www.axeo-toulouse.fr">www.axeo-toulouse.fr</a></td></tr>
+        <tr><td>Directeur de publication</td><td>Le gérant de MARHEL SERVICES</td></tr>
+        <tr><td>Hébergeur</td><td>Vercel Inc. — 340 Pine Street, Suite 701<br>San Francisco, CA 94104, USA — <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a></td></tr>
+        <tr><td>Nom de domaine</td><td>OVH SAS — 2 Rue Kellermann, 59100 Roubaix<br><a href="https://www.ovh.com" target="_blank" rel="noopener">ovh.com</a></td></tr>
+        <tr><td>Réseau</td><td>Franchise AXEO SERVICES SAS</td></tr>
+      </table>
+
+      <p>MARHEL SERVICES est agréée Services à la Personne (SAP) par la DREETS Occitanie — crédit d'impôt 50% applicable (art. 199 sexdecies du CGI).</p>
+    </div>
+
+    <hr />
+
+    <!-- ══ CGV ═══════════════════════════════════════════════ -->
+    <div class="sec" id="cgv">
+      <div class="sec-title">Conditions générales de vente</div>
+
+      <p><strong>Objet.</strong> Les présentes CGV régissent les prestations de services à domicile fournies par MARHEL SERVICES à tout client particulier ou professionnel.</p>
+
+      <p><strong>Services.</strong> Livraison de repas à domicile pour seniors, aide à domicile, garde d'enfants, ménage, jardinage — Toulouse Ouest et communes limitrophes.</p>
+
+      <p><strong>Tarifs.</strong> Communiqués au devis, exprimés TTC. Crédit d'impôt 50% applicable. Attestation fiscale remise chaque janvier. Révision tarifaire avec préavis d'un mois.</p>
+
+      <p><strong>Devis.</strong> Gratuit, sans engagement, valable 30 jours.</p>
+
+      <p><strong>Engagement.</strong> Aucun engagement de durée minimale. Résiliation à tout moment avec préavis de <strong>7 jours</strong> notifié par écrit.</p>
+
+      <p><strong>Modification / suspension.</strong> Annulation avant <strong>17h la veille</strong>. Suspension sans frais à partir de 7 jours consécutifs d'absence.</p>
+
+      <p><strong>Paiement.</strong> Chèque, virement, prélèvement ou CESU. Pénalités de retard au taux légal.</p>
+
+      <p><strong>Responsabilité.</strong> Prestataire couvert RC Pro. Responsabilité exclue en cas de force majeure ou faute du client.</p>
+
+      <p><strong>Médiation.</strong> En cas de litige non résolu à l'amiable : <a href="https://www.fesp.fr" target="_blank" rel="noopener">FESP — www.fesp.fr</a>.</p>
+
+      <p><strong>Droit applicable.</strong> Droit français. Juridiction : Toulouse (31).</p>
+    </div>
+
+    <hr />
+
+    <!-- ══ DONNÉES & COOKIES ══════════════════════════════════ -->
+    <div class="sec" id="rgpd">
+      <div class="sec-title">Données personnelles &amp; Cookies</div>
+
+      <p><strong>Responsable du traitement :</strong> MARHEL SERVICES — 14 Rue des Platanes, 31170 Tournefeuille — <a href="tel:+33531220021">05 31 22 00 21</a></p>
+
+      <p><strong>Données collectées.</strong> Prénom et téléphone via le formulaire de contact. Données de navigation via Google Analytics 4 sous réserve de consentement.</p>
+
+      <p><strong>Finalité.</strong> Rappel téléphonique, gestion du contrat, amélioration du site.</p>
+
+      <p><strong>Conservation.</strong> Données de contact : 3 ans. Données contractuelles : 10 ans. Cookies analytics : 13 mois.</p>
+
+      <p><strong>Cookies.</strong> Ce site utilise Google Analytics 4 et Google Ads. Aucun cookie publicitaire n'est déposé sans votre consentement. <strong>Google Consent Mode v2</strong> implémenté.</p>
+
+      <p><strong>Vos droits.</strong> Accès, rectification, effacement, opposition, portabilité — demande à : <a href="mailto:toulouse-ouest@axeoservices.fr">toulouse-ouest@axeoservices.fr</a>. Réponse sous 1 mois. Réclamation possible auprès de la <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>.</p>
+
+      <div class="note">
+        <strong>Opt-out Google Analytics :</strong>
+        <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tools.google.com/dlpage/gaoptout</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="ft">
+    <span>© 2026 MARHEL SERVICES — SIRET 534 855 762 00033</span>
+    <a href="/livraison-repas/">← Retour au site</a>
+  </footer>
+
+</body>
+</html>
